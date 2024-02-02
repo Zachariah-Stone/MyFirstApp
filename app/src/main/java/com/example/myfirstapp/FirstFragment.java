@@ -48,7 +48,7 @@ public class FirstFragment extends Fragment {
         binding = null;
     }
 
-    view.findViewById(R.id.random_button).setOnClickListener(new View.OnClickListener() {
+    /*view.findViewById(R.id.random_button).setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
             NavHostFragment.findNavController(FirstFragment.this)
@@ -69,7 +69,7 @@ public class FirstFragment extends Fragment {
         public void onClick(View view) {
             countMe(view);
         }
-    });
+    }); */
 
     private void countMe(View view) {
         // Get the value of the text view
